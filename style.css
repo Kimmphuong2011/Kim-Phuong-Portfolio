@@ -1,0 +1,85 @@
+.background {
+  background-color: black;
+  background-size: 180% 180%;
+}
+.intro {
+  color: white;
+}
+.profile-img {
+  max-width: 100%;
+}
+
+#about-me {
+  background-color: #cbcbcb;
+}
+
+.about-me-title {
+  @media (max-width: 991px) {
+    text-align: left !important;
+  }
+}
+
+.card-cover {
+  @media (max-width: 991px) {
+    display: block;
+    height: auto !important;
+    width: stretch;
+    background-repeat: no-repeat;
+  }
+  background-size: cover;
+}
+
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.quote-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.background-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional: Add a subtle text shadow */
+  @media (max-width: 1250px) {
+    display: block;
+    font-size: 2.5rem;
+  }
+  @media (max-width: 940px) {
+    display: block;
+    font-size: 2rem;
+  }
+  @media (max-width: 640px) {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+@media (max-width: 446px) {
+  display: block;
+  font-size: 1rem;
+}
+}
+
+#contact {
+  background-color: #cbcbcb;
+}
+.contact-title {
+  @media (max-width: 991px) {
+    text-align: left !important;
+  }
+}
